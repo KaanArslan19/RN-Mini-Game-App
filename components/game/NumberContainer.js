@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
   },
   numberText: {
     fontSize: 36,
-    fontWeight: "bold",
+    fontFamily: "pop-bold",
     color: Colors.primary500,
   },
 });
