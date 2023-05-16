@@ -1,4 +1,4 @@
-import { StyleSheet, Text } from "react-native";
+import { Platform, StyleSheet, Text } from "react-native";
 import Colors from "../../constants/colors";
 
 const Title = ({ children }) => {
@@ -11,10 +11,12 @@ const styles = StyleSheet.create({
   title: {
     fontFamily: "pop-bold",
     fontSize: 24,
-    color: Colors.secondary500,
+    color: "black",
     textAlign: "center",
     borderWidth: 4,
-    borderColor: Colors.secondary500,
+    textTransform: Platform.select({ ios: "uppercase", android: "none" }),
+    borderColor: "black",
     padding: 8,
+    maxWidth: "80%",
   },
 });

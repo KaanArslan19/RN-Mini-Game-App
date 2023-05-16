@@ -10,7 +10,7 @@ export default InstructionText;
 
 const styles = StyleSheet.create({
   instructionText: {
-    color: Colors.secondary500,
+    color: Colors.primary600,
     fontSize: 24,
     fontFamily: "pop-regular",
   },
